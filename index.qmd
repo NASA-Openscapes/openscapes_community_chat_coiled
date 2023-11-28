@@ -1,0 +1,58 @@
+---
+title: Processing Terrabytes of Laser Altimetry Data in The Cloud
+author: "Amy Steiker, Andy Barrett and Luis Lopez"
+title-slide-attributes:
+    data-background-image: images/seaice_background.png
+format:
+  revealjs:
+    theme: nsidc_daac_theme.scss
+    code-fold: true
+    fig-cap-location: top
+    logo: images/nsidc_daac_openscapes_logos.png
+    footer: "Openscapes Community Call: NASA Earthdata Cloud with Coiled, 2023-11-28"
+    embed-resources: True
+---
+
+## We know a lot about sea ice extent...
+
+
+![](images/N_daily_concentration_hires.png){.absolute top=100 left=5 width="40%"}
+
+![](images/monthly_ice_09_NH_v3.0-1.png){.absolute top=100 left=500 width="50%"}
+
+
+::: {.absolute bottom=100 left=500}
+...but less about ice thickness.
+:::
+
+## Estimating thickness from space
+
+::: {.r-stack}
+![](images/ICESat-2_how-it-works.jpg){.absolute top=100 left=5 width="50%"}
+
+![](images/sea_ice_freeboard_petty2020.png){.fragment .absolute top=150 left=300 width="40%"}
+
+![](images/ross_sea_freeboard.png){.fragment .absolute top=200 left=600 width="40%"}
+:::
+
+## Ways of Working
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+Jupyter Hub with notebooks
+
+![](images/jupyter_hub.png){width="100%"}
+
+:::
+
+::: {.fragment .column width="50%"}
+
+Python scripts
+
+![](images/script.png)
+
+:::
+
+::::
